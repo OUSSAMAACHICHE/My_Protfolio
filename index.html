@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link href="./assets/css/output.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-body bg-background text-text">
+    <header class="header font-headings bg-card text-text shadow-md py-4">
+      <div class="container mx-auto px-4 flex justify-between items-center">
+        <h1 class="text-3xl font-bold text-primary">Ouss_Ach</h1>
+        <ul class="flex space-x-4">
+          <li>
+            <a
+              href="#projects"
+              class="text-lg font-semibold hover:text-secondary transition-all duration-200 ease-in-out"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="text-lg font-semibold hover:text-secondary transition-all duration-200 ease-in-out"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main-content container mx-auto px-4 py-8">
+      <section id="introduction" class="introduction mb-8">
+        <h2 class="text-2xl font-semibold text-primary">Introduction</h2>
+        <hr class="border-b-2 border-borders mb-4 w-28" />
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <p class="text-lg leading-relaxed text-textSecondary">
+            Hello! My name is
+            <span class="text-primary font-semibold">Oussama Achiche</span>. I
+            am a passionate web developer with experience in creating dynamic
+            and responsive websites. I enjoy working with modern web
+            technologies and continuously learning new skills to improve my
+            craft. Welcome to my portfolio where you can see some of my work and
+            learn more about me.
+          </p>
+          <div
+            class="flex justify-center items-center rounded-lg overflow-hidden"
+          >
+            <img
+              src="./assets/images/frontimg.jpg"
+              alt="front-end image"
+              class="rounded-lg"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2 class="text-2xl font-semibold text-primary">Projects</h2>
+        <hr class="border-b-2 border-borders mb-4 w-20" />
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project 1 -->
+          <div
+            class="project group p-4 shadow-md rounded-lg bg-card border-2 border-borders"
+          >
+            <img
+              src="./assets/images/calculater.png"
+              alt="Project 1"
+              class="w-full h-48 object-cover rounded-t-lg mb-4 text-text scale-90 opacity-80 group-hover:opacity-100 group-hover:scale-100 transition-all duration-200"
+              loading="lazy"
+            />
+            <a
+              href="https://github.com/OUSSAMAACHICHE/Calculator"
+              class="block w-fit hover:underline"
+            >
+              <h3 class="text-xl font-semibold mb-2 text-text">Calculater</h3>
+            </a>
+            <p class="text-textSecondary">
+              A simple and user-friendly calculator designed to perform basic
+              arithmetic operations efficiently, perfect for quick calculations
+              and easy integration into any project.
+            </p>
+          </div>
+          <!-- Project 2 -->
+          <div
+            class="project group p-4 shadow-md rounded-lg bg-card border-2 border-borders"
+          >
+            <img
+              src="./assets/images/expenses_chart.png"
+              alt="Project 2"
+              class="w-full h-48 object-cover rounded-t-lg mb-4 scale-90 opacity-80 group-hover:opacity-100 group-hover:scale-100 transition-all duration-200"
+              loading="lazy"
+            />
+            <a
+              href="https://github.com/OUSSAMAACHICHE/Expenses_chart_component"
+              class="block w-fit hover:underline"
+            >
+              <h3 class="text-xl font-semibold mb-2 text-text">
+                Expenses chart component
+              </h3>
+            </a>
+            <p class="text-textSecondary">
+              An interactive expenses chart component that visually represents
+              spending trends, making it easy to track and analyze financial
+              data efficiently.
+            </p>
+          </div>
+          <!-- Project 3 -->
+          <div
+            class="project group bg-card p-4 shadow-md rounded-lg border-2 border-borders"
+          >
+            <img
+              src="./assets/images/game_website.png"
+              alt="Project 3"
+              class="w-full h-48 object-cover rounded-t-lg mb-4 scale-90 opacity-80 group-hover:opacity-100 group-hover:scale-100 transition-all duration-200"
+              loading="lazy"
+            />
+            <a
+              href="https://github.com/OUSSAMAACHICHE/new_home_page"
+              class="block w-fit hover:underline"
+            >
+              <h3 class="text-xl font-semibold mb-2 text-text">Game website</h3>
+            </a>
+            <p class="text-textSecondary">
+              A news home page for technologies and games you can read every
+              morning with a cup of coffee.
+            </p>
+          </div>
+          <!-- Project 4 -->
+          <div
+            class="project group bg-card p-4 shadow-md rounded-lg border-2 border-borders"
+          >
+            <img
+              src="./assets/images/calulate_age.png"
+              alt="Project 3"
+              class="w-full h-48 object-cover rounded-t-lg mb-4 scale-90 opacity-80 group-hover:opacity-100 group-hover:scale-100 transition-all duration-200"
+              loading="lazy"
+            />
+            <a
+            href="https://github.com/OUSSAMAACHICHE/age_calculator_app"
+            class="block w-fit hover:underline"
+          >
+          <h3 class="text-xl font-semibold mb-2 text-text">Calculate age</h3>
+
+        </a>
+            <p class="text-textSecondary">
+              A simple age calculator that calculates your age based on your
+              birthdate. It is a fun and easy way to find out how old you are.
+            </p>
+          </div>
+          <!-- Project 5 -->
+          <div
+            class="project group bg-card p-4 shadow-md rounded-lg border-2 border-borders"
+          >
+            <img
+              src="./assets/images/result_summary.png"
+              alt="Project 3"
+              class="w-full h-48 object-cover rounded-t-lg mb-4 scale-90 opacity-80 group-hover:opacity-100 group-hover:scale-100 transition-all duration-200"
+              loading="lazy"
+            />
+            <a
+            href="https://github.com/OUSSAMAACHICHE/result_summary_component"
+            class="block w-fit hover:underline"
+          >
+          <h3 class="text-xl font-semibold mb-2 text-text">Result summary</h3>
+        </a>
+            <p class="text-textSecondary">
+              A simple result summary that calculates your total score based on
+              your answers. It is a fun and easy way to find out how well you
+              did.
+            </p>
+          </div>
+          <!-- Project 6 -->
+          <div
+            class="project group bg-card p-4 shadow-md rounded-lg border-2 border-borders"
+          >
+            <img
+              src="./assets/images/todo_list.png"
+              alt="Project 3"
+              class="w-full h-48 object-cover rounded-t-lg mb-4 scale-90 opacity-80 group-hover:opacity-100 group-hover:scale-100 transition-all duration-200"
+              loading="lazy"
+            />
+            <a
+            href="https://github.com/OUSSAMAACHICHE/to_do_app"
+            class="block w-fit hover:underline"
+          >
+          <h3 class="text-xl font-semibold mb-2 text-text">Todo list</h3>
+        </a>
+            <p class="text-textSecondary">
+              A simple todo list that helps you keep track of your tasks and
+              stay organized. It is a great way to manage your time and increase
+              productivity.
+            </p>
+          </div>
+          <!-- Project 7 -->
+          <div
+            class="project group bg-card p-4 shadow-md rounded-lg border-2 border-borders"
+          >
+            <img
+              src="./assets/images/slider_images.png"
+              alt="Project 3"
+              class="w-full h-48 object-cover rounded-t-lg mb-4 scale-90 opacity-80 group-hover:opacity-100 group-hover:scale-100 transition-all duration-200"
+              loading="lazy"
+            />
+            <a
+            href="https://github.com/OUSSAMAACHICHE"
+            class="block w-fit hover:underline"
+          >
+          <h3 class="text-xl font-semibold mb-2 text-text">Image slider</h3>
+        </a>
+            <p class="text-textSecondary">
+              A simple image slider that displays a series of images in a
+              slideshow format. It is a great way to showcase your photos and
+              create an engaging user experience.
+            </p>
+          </div>
+          <!-- Project 8 -->
+          <div
+            class="project group bg-card p-4 shadow-md rounded-lg border-2 border-borders"
+          >
+            <img
+              src="./assets/images/todo_list_app.png"
+              alt="Project 3"
+              class="w-full h-48 object-cover rounded-t-lg mb-4 scale-90 opacity-80 group-hover:opacity-100 group-hover:scale-100 transition-all duration-200"
+              loading="lazy"
+            />
+            <a
+              href="https://github.com/OUSSAMAACHICHE/Todo_List_App"
+              class="block w-fit hover:underline"
+            >
+            <h3 class="text-xl font-semibold mb-2 text-text">Todo list app</h3>
+          </a>
+            <p class="text-textSecondary">
+              A simple todo list app that helps you keep track of your tasks and
+              stay organized. It is a great way to manage your time and increase
+              productivity.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact my-8">
+        <h2 class="text-2xl font-semibold text-primary">Get in touch</h2>
+        <hr class="border-b-2 border-borders mb-4 w-20" />
+        <div class="grid grid-cols-1 md:grid-cols-2 justify-center gap-8">
+          <form id="contact" class="bg-card p-6 shadow-md rounded-lg">
+            <div class="mb-4">
+              <label
+                for="name"
+                class="block text-lg font-medium text-textSecondary"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="mt-1 block w-full px-3 py-2 border border-textSecondary rounded-md shadow-sm focus:outline-none caret-danger bg-background focus:ring-primary focus:border-primary sm:text-sm autofill:bg-background autofill:text-text"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label
+                for="email"
+                class="block text-lg font-medium text-textSecondary"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="mt-1 block w-full px-3 py-2 border border-textSecondary rounded-md shadow-sm focus:outline-none caret-danger bg-background focus:ring-primary focus:border-primary sm:text-sm"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label
+                for="message"
+                class="block text-lg font-medium text-textSecondary"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                class="mt-1 block w-full px-3 py-2 border border-textSecondary rounded-md shadow-sm focus:outline-none caret-danger bg-background focus-within:bg-background focus:border-primary sm:text-sm"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <button
+                type="submit"
+                class="w-full inline-flex justify-center py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-text bg-primary hover:bg-secondary transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+          <div>
+            <img
+              src="./assets/images/contact-me.png"
+              alt="contact-image"
+              class="hidden md:block"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

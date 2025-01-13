@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.specific-class {
+  @apply text-lg font-bold  w-full p-4 rounded-md capitalize text-white;
+}
+
