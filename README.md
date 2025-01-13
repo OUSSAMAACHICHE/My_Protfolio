@@ -10,6 +10,7 @@ This project showcases my portfolio, including an introduction about myself, my 
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
 - [Contact](#contact)
+- [links](#links)
 
 ## Files and Directory Structure
 - **assets/images/**: Contains images used in the portfolio.
@@ -32,4 +33,9 @@ To view the portfolio, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/OUSSAMAACHICHE/My_Protfolio
+
+## links
+[My protfoli URL](https://github.com/OUSSAMAACHICHE/My_Protfolio)
+
+[Live site](https://oussamaachiche.github.io/My_Protfolio/)
