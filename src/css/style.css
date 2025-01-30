@@ -11,3 +11,13 @@ body {
   @apply text-lg font-bold  w-full p-4 rounded-md capitalize text-white;
 }
 
+.swiper {
+  width: 600px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+.swiper-wrapper .swiper-slide {
+  background-color: #121212;
+  width: 100%;
+  height: 100%;
+}

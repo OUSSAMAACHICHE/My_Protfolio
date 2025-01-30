@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="display my information as a front-end developer and my projects" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Front-end, Web Development, Portfolio" />
+    <meta name="author" content="Oussama Achiche" />
+    <meta name="robots" content="index, follow" />
     <title>My Portfolio</title>
     <link href="./assets/css/output.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -17,6 +21,11 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
+    />
+    <!-- swipper labrary -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
   </head>
   <body class="font-body bg-background text-text">
@@ -38,12 +47,19 @@
               >Contact</a
             >
           </li>
+          <li>
+            <a
+              href="#about"
+              class="text-lg font-semibold hover:text-secondary transition-all duration-200 ease-in-out"
+              >About me</a
+            >
+          </li>
         </ul>
       </div>
     </header>
 
     <main class="main-content container mx-auto px-4 py-8">
-      <section id="introduction" class="introduction mb-8">
+      <section id="introduction" class="introduction mb-8 h-screen">
         <h2 class="text-2xl font-semibold text-primary">Introduction</h2>
         <hr class="border-b-2 border-borders mb-4 w-28" />
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -67,10 +83,116 @@
           </div>
         </div>
       </section>
-
-      <section id="projects" class="projects">
+      <!-- About Me Section -->
+      <section id="about" class="about mb-8 h-screen">
+        <h2 class="text-2xl font-semibold text-primary">About Me</h2>
+        <hr class="border-b-2 border-borders mb-4 w-20" />
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <p class="text-lg leading-relaxed text-textSecondary">
+            I am a dedicated and enthusiastic web developer with a strong foundation in front-end technologies. My journey in web development started with a curiosity for how websites are built and has grown into a passion for creating seamless and engaging user experiences. I am proficient in HTML, CSS, JavaScript, and various frameworks and libraries. I am always eager to learn and take on new challenges to enhance my skills and contribute to exciting projects.
+          </p>
+          <div class="flex justify-center items-center rounded-lg overflow-hidden">
+            <img src="./assets/images/about_me.jpg" alt="About Me" class="rounded-lg" />
+          </div>
+        </div>
+      </section>
+      <!-- Skills Section -->
+      <section id="projects" class="projects mb-20">
         <h2 class="text-2xl font-semibold text-primary">Projects</h2>
         <hr class="border-b-2 border-borders mb-4 w-20" />
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- slide 1 -->
+            <div class="swiper-slide">
+              <img
+                src="./assets/images/calculater.png"
+                alt="calculater"
+                class="rounded-lg w-1/2 mx-auto"
+                loading="lazy"
+              />
+              <div
+                class="title absolute top-0 left-1/2 translate-x-[-50%] p-4 bg-opacity-90 bg-transparent"
+              >
+                <h3 class="text-xl font-semibold text-primary">Calculater</h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/images/expenses_chart.png"
+                alt="expenses_chart"
+                loading="lazy"
+              />
+              <div class="title absolute top-0 left-0 p-4 bg-opacity-90">
+                <h3 class="text-xl font-semibold text-primary">
+                  Expenses Chart
+                </h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/calulate_age.png" alt="calulate_age" loading="lazy" />
+
+              <div class="title absolute top-0 left-0 p-4 bg-opacity-90">
+                <h3 class="text-xl font-semibold text-primary mx-auto">
+                  Calculate Age
+                </h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/game_website.png" alt="game_website" loading="lazy"/>
+              <div class="title absolute top-0 left-0 p-4 bg-opacity-90">
+                <h3 class="text-xl font-semibold text-primary">Game Website</h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/todo_list_app.png" alt="todo_list" loading="lazy"/>
+              <div class="title absolute top-0 left-0 p-4 bg-opacity-90">
+                <h3 class="text-xl font-semibold text-primary">
+                  Todo List App
+                </h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/images/result_summary.png"
+                alt="result_summary"
+                loading="lazy"
+              />
+              <div class="title absolute top-0 left-0 p-4 bg-opacity-90">
+                <h3 class="text-xl font-semibold text-primary">
+                  Result Summary
+                </h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/images/slider_images.png"
+                alt="slider_images"
+                loading="lazy"
+              />
+              <div class="title absolute top-0 left-0 p-4 bg-opacity-90">
+                <h3 class="text-xl font-semibold text-primary">Image Slider</h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/images/todo_list_app.png"
+                alt="todo_list_app"
+                loading="lazy"
+              />
+              <div class="title absolute top-0 left-0 p-4 bg-opacity-90">
+                <h3 class="text-xl font-semibold text-primary">Todo List</h3>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Project 1 -->
           <div
@@ -150,12 +272,13 @@
               loading="lazy"
             />
             <a
-            href="https://github.com/OUSSAMAACHICHE/age_calculator_app"
-            class="block w-fit hover:underline"
-          >
-          <h3 class="text-xl font-semibold mb-2 text-text">Calculate age</h3>
-
-        </a>
+              href="https://github.com/OUSSAMAACHICHE/age_calculator_app"
+              class="block w-fit hover:underline"
+            >
+              <h3 class="text-xl font-semibold mb-2 text-text">
+                Calculate age
+              </h3>
+            </a>
             <p class="text-textSecondary">
               A simple age calculator that calculates your age based on your
               birthdate. It is a fun and easy way to find out how old you are.
@@ -172,11 +295,13 @@
               loading="lazy"
             />
             <a
-            href="https://github.com/OUSSAMAACHICHE/result_summary_component"
-            class="block w-fit hover:underline"
-          >
-          <h3 class="text-xl font-semibold mb-2 text-text">Result summary</h3>
-        </a>
+              href="https://github.com/OUSSAMAACHICHE/result_summary_component"
+              class="block w-fit hover:underline"
+            >
+              <h3 class="text-xl font-semibold mb-2 text-text">
+                Result summary
+              </h3>
+            </a>
             <p class="text-textSecondary">
               A simple result summary that calculates your total score based on
               your answers. It is a fun and easy way to find out how well you
@@ -194,11 +319,11 @@
               loading="lazy"
             />
             <a
-            href="https://github.com/OUSSAMAACHICHE/to_do_app"
-            class="block w-fit hover:underline"
-          >
-          <h3 class="text-xl font-semibold mb-2 text-text">Todo list</h3>
-        </a>
+              href="https://github.com/OUSSAMAACHICHE/to_do_app"
+              class="block w-fit hover:underline"
+            >
+              <h3 class="text-xl font-semibold mb-2 text-text">Todo list</h3>
+            </a>
             <p class="text-textSecondary">
               A simple todo list that helps you keep track of your tasks and
               stay organized. It is a great way to manage your time and increase
@@ -216,11 +341,11 @@
               loading="lazy"
             />
             <a
-            href="https://github.com/OUSSAMAACHICHE"
-            class="block w-fit hover:underline"
-          >
-          <h3 class="text-xl font-semibold mb-2 text-text">Image slider</h3>
-        </a>
+              href="https://github.com/OUSSAMAACHICHE"
+              class="block w-fit hover:underline"
+            >
+              <h3 class="text-xl font-semibold mb-2 text-text">Image slider</h3>
+            </a>
             <p class="text-textSecondary">
               A simple image slider that displays a series of images in a
               slideshow format. It is a great way to showcase your photos and
@@ -241,8 +366,10 @@
               href="https://github.com/OUSSAMAACHICHE/Todo_List_App"
               class="block w-fit hover:underline"
             >
-            <h3 class="text-xl font-semibold mb-2 text-text">Todo list app</h3>
-          </a>
+              <h3 class="text-xl font-semibold mb-2 text-text">
+                Todo list app
+              </h3>
+            </a>
             <p class="text-textSecondary">
               A simple todo list app that helps you keep track of your tasks and
               stay organized. It is a great way to manage your time and increase
@@ -313,6 +440,7 @@
             <img
               src="./assets/images/contact-me.png"
               alt="contact-image"
+              loading="lazy"
               class="hidden md:block"
             />
           </div>
@@ -320,6 +448,7 @@
       </section>
     </main>
 
-    <script src="./src/js/script.js"></script>
+    <script type="module" src="./src/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
